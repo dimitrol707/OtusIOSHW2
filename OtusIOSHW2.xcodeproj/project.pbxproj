@@ -11,6 +11,20 @@
 		D183B5082868859E005B68FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B5072868859E005B68FB /* ContentView.swift */; };
 		D183B50A286885A0005B68FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D183B509286885A0005B68FB /* Assets.xcassets */; };
 		D183B50D286885A0005B68FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D183B50C286885A0005B68FB /* Preview Assets.xcassets */; };
+		D183B51828688CCC005B68FB /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = D183B51728688CCC005B68FB /* NetworkLayer */; };
+		D183B51E286897B2005B68FB /* AnimeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B51D286897B2005B68FB /* AnimeListView.swift */; };
+		D183B52128689808005B68FB /* AnimeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B52028689808005B68FB /* AnimeListViewModel.swift */; };
+		D183B5242868A785005B68FB /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B5232868A785005B68FB /* Identifiable.swift */; };
+		D183B52A2868E195005B68FB /* AnimeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B5292868E194005B68FB /* AnimeItemView.swift */; };
+		D183B52C2868E7C2005B68FB /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B52B2868E7C2005B68FB /* TagView.swift */; };
+		D183B52E2868E9F7005B68FB /* AnimeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B52D2868E9F7005B68FB /* AnimeItemViewModel.swift */; };
+		D183B5312868EFDE005B68FB /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B5302868EFDE005B68FB /* ImageView.swift */; };
+		D183B5332868EFF5005B68FB /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B5322868EFF5005B68FB /* ImageViewModel.swift */; };
+		D183B540286A0299005B68FB /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = D183B53F286A0299005B68FB /* NavigationStack */; };
+		D183B542286A029E005B68FB /* ImageService in Frameworks */ = {isa = PBXBuildFile; productRef = D183B541286A029E005B68FB /* ImageService */; };
+		D183B546286A07B9005B68FB /* CharacterItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B545286A07B9005B68FB /* CharacterItemView.swift */; };
+		D183B548286A0808005B68FB /* CharacterItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B547286A0808005B68FB /* CharacterItemViewModel.swift */; };
+		D183B54B286A2192005B68FB /* AnimeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183B54A286A2192005B68FB /* AnimeRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,20 @@
 		D183B5072868859E005B68FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D183B509286885A0005B68FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D183B50C286885A0005B68FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D183B51328688626005B68FB /* NetworkLayer */ = {isa = PBXFileReference; lastKnownFileType = text; path = NetworkLayer; sourceTree = SOURCE_ROOT; };
+		D183B51D286897B2005B68FB /* AnimeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListView.swift; sourceTree = "<group>"; };
+		D183B52028689808005B68FB /* AnimeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListViewModel.swift; sourceTree = "<group>"; };
+		D183B5232868A785005B68FB /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		D183B5292868E194005B68FB /* AnimeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeItemView.swift; sourceTree = "<group>"; };
+		D183B52B2868E7C2005B68FB /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		D183B52D2868E9F7005B68FB /* AnimeItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeItemViewModel.swift; sourceTree = "<group>"; };
+		D183B5302868EFDE005B68FB /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		D183B5322868EFF5005B68FB /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		D183B53D286A0257005B68FB /* NavigationStack */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NavigationStack; sourceTree = "<group>"; };
+		D183B53E286A028C005B68FB /* ImageService */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ImageService; sourceTree = "<group>"; };
+		D183B545286A07B9005B68FB /* CharacterItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItemView.swift; sourceTree = "<group>"; };
+		D183B547286A0808005B68FB /* CharacterItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItemViewModel.swift; sourceTree = "<group>"; };
+		D183B54A286A2192005B68FB /* AnimeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D183B542286A029E005B68FB /* ImageService in Frameworks */,
+				D183B51828688CCC005B68FB /* NetworkLayer in Frameworks */,
+				D183B540286A0299005B68FB /* NavigationStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +66,10 @@
 		D183B4F92868859E005B68FB = {
 			isa = PBXGroup;
 			children = (
+				D183B53C286A0257005B68FB /* Packages */,
 				D183B5042868859E005B68FB /* OtusIOSHW2 */,
 				D183B5032868859E005B68FB /* Products */,
+				D183B51428688BB6005B68FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +84,9 @@
 		D183B5042868859E005B68FB /* OtusIOSHW2 */ = {
 			isa = PBXGroup;
 			children = (
+				D183B5222868A6D0005B68FB /* Extensions */,
+				D183B51328688626005B68FB /* NetworkLayer */,
+				D183B5192868976A005B68FB /* View */,
 				D183B5052868859E005B68FB /* OtusIOSHW2App.swift */,
 				D183B5072868859E005B68FB /* ContentView.swift */,
 				D183B509286885A0005B68FB /* Assets.xcassets */,
@@ -65,6 +101,87 @@
 				D183B50C286885A0005B68FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D183B51428688BB6005B68FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D183B5192868976A005B68FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D183B544286A0794005B68FB /* CharacterItem */,
+				D183B543286A0774005B68FB /* AnimeItem */,
+				D183B52F2868EFCE005B68FB /* Image */,
+				D183B51A28689773005B68FB /* AnimeList */,
+				D183B52B2868E7C2005B68FB /* TagView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D183B51A28689773005B68FB /* AnimeList */ = {
+			isa = PBXGroup;
+			children = (
+				D183B549286A2181005B68FB /* Components  */,
+				D183B52028689808005B68FB /* AnimeListViewModel.swift */,
+				D183B51D286897B2005B68FB /* AnimeListView.swift */,
+			);
+			path = AnimeList;
+			sourceTree = "<group>";
+		};
+		D183B5222868A6D0005B68FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D183B5232868A785005B68FB /* Identifiable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D183B52F2868EFCE005B68FB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D183B5302868EFDE005B68FB /* ImageView.swift */,
+				D183B5322868EFF5005B68FB /* ImageViewModel.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D183B53C286A0257005B68FB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D183B53D286A0257005B68FB /* NavigationStack */,
+				D183B53E286A028C005B68FB /* ImageService */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D183B543286A0774005B68FB /* AnimeItem */ = {
+			isa = PBXGroup;
+			children = (
+				D183B5292868E194005B68FB /* AnimeItemView.swift */,
+				D183B52D2868E9F7005B68FB /* AnimeItemViewModel.swift */,
+			);
+			path = AnimeItem;
+			sourceTree = "<group>";
+		};
+		D183B544286A0794005B68FB /* CharacterItem */ = {
+			isa = PBXGroup;
+			children = (
+				D183B545286A07B9005B68FB /* CharacterItemView.swift */,
+				D183B547286A0808005B68FB /* CharacterItemViewModel.swift */,
+			);
+			path = CharacterItem;
+			sourceTree = "<group>";
+		};
+		D183B549286A2181005B68FB /* Components  */ = {
+			isa = PBXGroup;
+			children = (
+				D183B54A286A2192005B68FB /* AnimeRowView.swift */,
+			);
+			path = "Components ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +200,11 @@
 			dependencies = (
 			);
 			name = OtusIOSHW2;
+			packageProductDependencies = (
+				D183B51728688CCC005B68FB /* NetworkLayer */,
+				D183B53F286A0299005B68FB /* NavigationStack */,
+				D183B541286A029E005B68FB /* ImageService */,
+			);
 			productName = OtusIOSHW2;
 			productReference = D183B5022868859E005B68FB /* OtusIOSHW2.app */;
 			productType = "com.apple.product-type.application";
@@ -137,8 +259,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D183B52E2868E9F7005B68FB /* AnimeItemViewModel.swift in Sources */,
+				D183B51E286897B2005B68FB /* AnimeListView.swift in Sources */,
+				D183B52128689808005B68FB /* AnimeListViewModel.swift in Sources */,
 				D183B5082868859E005B68FB /* ContentView.swift in Sources */,
+				D183B5242868A785005B68FB /* Identifiable.swift in Sources */,
+				D183B546286A07B9005B68FB /* CharacterItemView.swift in Sources */,
+				D183B52C2868E7C2005B68FB /* TagView.swift in Sources */,
+				D183B5332868EFF5005B68FB /* ImageViewModel.swift in Sources */,
+				D183B5312868EFDE005B68FB /* ImageView.swift in Sources */,
+				D183B52A2868E195005B68FB /* AnimeItemView.swift in Sources */,
 				D183B5062868859E005B68FB /* OtusIOSHW2App.swift in Sources */,
+				D183B54B286A2192005B68FB /* AnimeRowView.swift in Sources */,
+				D183B548286A0808005B68FB /* CharacterItemViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +472,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D183B51728688CCC005B68FB /* NetworkLayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkLayer;
+		};
+		D183B53F286A0299005B68FB /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NavigationStack;
+		};
+		D183B541286A029E005B68FB /* ImageService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImageService;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D183B4FA2868859E005B68FB /* Project object */;
 }
